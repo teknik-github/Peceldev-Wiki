@@ -19,7 +19,5 @@ jobs:
       run: |
         ssh -o StrictHostKeyChecking=no ${{ secrets.USERNAME }}@${{ secrets.PUBLIC }} -p ${{ secrets.PORT }} "
           cd /home/ubuntu/kubernetes/wiki-gitaction/wiki
-          git pull 
-          ip addr
-          kubectl get pods
+          echo $PATH
         "
