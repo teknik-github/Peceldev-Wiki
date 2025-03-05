@@ -20,6 +20,5 @@ jobs:
         ssh -o StrictHostKeyChecking=no ${{ secrets.USERNAME }}@${{ secrets.PUBLIC }} -p ${{ secrets.PORT }} "
           cd /home/ubuntu/kubernetes/wiki-gitaction/wiki
           git pull 
-          /home/ubuntu/.nvm/versions/node/v23.8.0/bin/npm -v 
-          /home/ubuntu/.nvm/versions/node/v23.8.0/bin/node -v
+          npm run build
         "
