@@ -14,7 +14,7 @@ PecelDev Wiki adalah repositori dokumentasi pribadi milik **Raffi** yang berisi 
   - **DevOps Engineering**  
   - **System Administration**  
 - 💼 Pengalaman Praktik:  
-  [Lihat Pengalaman Selengkapnya](https://contoh-link-pengalaman.com) *(Ganti dengan link aktual)*
+  [Lihat Pengalaman Selengkapnya](https://contoh-link-pengalaman.com)
 
 ## Apa yang Tersedia di PecelDev Wiki?
 
@@ -31,7 +31,7 @@ PecelDev Wiki adalah repositori dokumentasi pribadi milik **Raffi** yang berisi 
 - **Framework**: [Docusaurus](https://docusaurus.io/)  
   *(Open-source static site generator untuk dokumentasi modern)*
 - **Deployment**:  
-  - Menggunakan **Docker** untuk containerisasi  
+  - Menggunakan **Kubernetes** untuk containerisasi  
   - Konfigurasi deployment otomatis  
 - **Keunggulan**:  
   ✅ Mudah dikonfigurasi  
@@ -47,5 +47,5 @@ PecelDev Wiki adalah repositori dokumentasi pribadi milik **Raffi** yang berisi 
 ---
 
 **📢 Catatan**:  
-Wiki ini terus diperbarui seiring perkembangan pembelajaran. Kontribusi/saran diterima via [GitHub Issues](https://github.com/raffi/peceldev-wiki)
+Wiki ini terus diperbarui seiring perkembangan pembelajaran. Kontribusi/saran diterima via [GitHub Issues](https://github.com/teknik-github/Peceldev-Wiki/issues)
 
