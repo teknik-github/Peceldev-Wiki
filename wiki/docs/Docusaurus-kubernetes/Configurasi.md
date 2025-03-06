@@ -1,7 +1,8 @@
 # Docusaurus Kubernetes
 
-[Download]()
+Ini adalah configurasi untuk Docusaurus kubernetes sederhana
 
+### Deploymen.yaml
 ```bash
 apiVersion: apps/v1
 kind: Deployment
