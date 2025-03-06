@@ -1,0 +1,9 @@
+{
+    "label": "Docusaurus - Kubernetes",
+    "position": 2,
+    "link": {
+      "type": "generated-index",
+      "description": "Cara cepat untuk deploy Docusaurus di Kubernetes."
+    }
+  }
+  
