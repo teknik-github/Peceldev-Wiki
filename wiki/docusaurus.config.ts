@@ -83,6 +83,11 @@ const config: Config = {
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/teknik-github/Peceldev-Wiki',
+          label: 'Saweria',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/teknik-github/Peceldev-Wiki',
           label: 'GitHub',
           position: 'right',
         },

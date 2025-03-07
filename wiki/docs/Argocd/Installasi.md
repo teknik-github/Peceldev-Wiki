@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Argocd
 
 ArgoCD adalah alat  continuous deployment (CD) yang digunakan untuk menerapkan aplikasi Kubernetes. ArgoCD menggunakan Git sebagai sumber code nya untuk mengotomatiskan penerapan aplikasi dan manajemen siklus hidupnya
@@ -9,8 +13,6 @@ ArgoCD adalah alat  continuous deployment (CD) yang digunakan untuk menerapkan a
 - Memvisualisasikan masalah penerapan
 - Mendeteksi dan memperbaiki penyimpangan konfigurasi
 - Mengelola konfigurasi infrastruktur dan pembaruan aplikasi dalam satu sistem
-
-File [Download](https://cdn.peceldev.my.id/argocd)
 
 ## Instalasi
 
