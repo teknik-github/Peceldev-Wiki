@@ -27,11 +27,14 @@ atau kalian bisa menggunakan code yang sudah saya modifikasi seperti di penjelas
 kubectl create namespace argocd
 kubectl apply -n argocd -f https://raw.githubusercontent.com/teknik-github/argocd-loadbalancer/refs/heads/main/argocd.yaml
 ```
-untuk mengetahui password argocd kalian bisa menjalankan ini
+untuk mengetahui password argocd dan untuk mengaccess nya kalian bisa menjalankan ini
 
 ```bash
-kubectl exec pod -- argocd admin initial-password
+kubectl port-forward svc/argocd-server 8080:443
+kubectl exec (pod name) -- argocd admin initial-password
 ```
+Untuk membuka web Interface nya Https://(your-ip):8080 
+
 ## Penjelasan Code
 
 ganti bagian ini dan sesuaikan dengan kebutuhan kalian untuk mengaccess argocd
@@ -48,4 +51,4 @@ spec:
     targetPort: 8080  
   type: LoadBalancer
 ```
-jika kalian menggunakan `Loadbalancer` seperti `Metallb` anda dapat membiarkan code tersebut atau jika kalian inggin menggunakan static ip Loadbalancer kalian bisa menggunakan `externalIPs`
+jika kalian menggunakan `Loadbalancer` seperti `Metallb` anda dapat membiarkan code tersebut atau jika kalian inggin menggunakan static ip Loadbalancer kalian bisa Menggantinya dengan `externalIPs` Node

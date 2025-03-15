@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-
+![Image](https://cdn.peceldev.my.id/images/1741858124783-isqa6.webp)
 # PecelDev Wiki
 
 PecelDev Wiki adalah repositori dokumentasi pribadi milik **Raffi** yang berisi kumpulan proyek, catatan belajar, dan dokumentasi teknis yang terstruktur. 

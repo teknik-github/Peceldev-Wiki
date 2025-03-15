@@ -35,7 +35,7 @@ spec:
             path: /home/ubuntu/kubernetes/wiki-gitaction/wiki
 ```
 
-## Penjelasan code
+## :rocket: Penjelasan code
 
 ### Deployment.yaml
 code ini di gunakan untuk menjalankan Docusaurus di saat pods sudah berjalan 
