@@ -30,7 +30,7 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/teknik-github/argoc
 untuk mengetahui password argocd dan untuk mengaccess nya kalian bisa menjalankan ini
 
 ```bash
-kubectl port-forward svc/argocd-server 8080:443
+kubectl port-forward pod/argocd-server-xxx 8080:8080
 kubectl exec (pod name) -- argocd admin initial-password
 ```
 Untuk membuka web Interface nya Https://(your-ip):8080 
