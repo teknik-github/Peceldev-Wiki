@@ -61,4 +61,20 @@ $(. /etc/os-release && echo "$VERSION_CODENAME")
 
 untuk instalasi Package nya sama dengan yang di atas atau di bawah Ubuntu
 
+## Docker Tanpa Sudo
+
+1. Buat docker group.
+
+```bash
+sudo groupadd docker
+```
+
+2. Tambahkan User Kedalam docker group.
+
+```bash
+ sudo usermod -aG docker $USER
+```
+3. Log out and log In kembali de dalam linux kalian
+
+
 Source [Docker](https://docs.docker.com/engine/)

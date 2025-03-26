@@ -41,13 +41,13 @@ graph LR
   D -->|Deploy ke| E[Kubernetes Cluster]
 ```
 
-## 🆚 **Proxmox vs VMware vSphere**
+## 🆚 **Argo CD Image Updater vs Flux Image Automation**
 | **Tool**          | Argo CD Image Updater                     | Flux Image Automation            |
 |---------------------|--------------------------------|---------------------------|
 | Integrasi Argo CD             | ✅ Native     | ❌ (Butuh Flux)          |
 | Strategi Update     | SemVer, Regex, Latest            | SemVer                    |
 | Write-Back ke Git   | ✅                        | ✅      |
-| Multi-Registry             | ✅           | ✅ (Berbayar)           |
+| Multi-Registry             | ✅           | ✅            |
 | Kompleksitas   | Menengah                   | Tinggi
 ---
 
