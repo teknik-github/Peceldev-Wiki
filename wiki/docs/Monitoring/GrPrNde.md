@@ -142,10 +142,10 @@ sudo systemctl start grafana-server
 ```
 
 ✅ Akses Dashboard
-- Grafana: http://<IP-Server>:3000
-- Default login: admin / admin
-- Prometheus: http://<IP-Server>:9090
-- Node Exporter: http://<IP-Server>:9100/metrics
+- Grafana: ``http://<IP-Server>:3000``
+- Default login: ``admin / admin``
+- Prometheus: ``http://<IP-Server>:9090``
+- Node Exporter: ``http://<IP-Server>:9100/metrics``
 
 🎯 Tips Akhir
 - Tambahkan Prometheus sebagai data source di Grafana.
