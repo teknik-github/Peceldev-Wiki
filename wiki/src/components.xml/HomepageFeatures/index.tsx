@@ -11,32 +11,31 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Mudah Di Pelajari',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Semua Pelajaran DevOps, GitHub Action, dan CI/CD di dalam satu tempat.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Pelajaran Yang Terstruktur',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Pelajaran yang terstruktur dan mudah diikuti. Anda dapat belajar dengan
+        cepat dan efisien.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Responsive dan Interaktif',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Dapatkan pengalaman belajar yang lebih baik dengan tampilan yang
+        responsif dan interaktif.
       </>
     ),
   },
@@ -64,6 +63,7 @@ export default function HomepageFeatures(): ReactNode {
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
+          
         </div>
       </div>
     </section>

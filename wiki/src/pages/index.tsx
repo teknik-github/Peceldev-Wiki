@@ -12,7 +12,7 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero', styles.customHero, styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
@@ -22,7 +22,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Mulai Belajar ⏱️
           </Link>
         </div>
       </div>
@@ -31,16 +31,16 @@ function HomepageHeader() {
 }
 
 export default function Home(): ReactNode {
-  // const {siteConfig} = useDocusaurusContext();
-  // return (
-  //   <Layout
-  //     title={``}
-  //     description="Description will go into a meta tag in <head />">
-  //     <HomepageHeader />
-  //     <main>
-  //       <HomepageFeatures />
-  //     </main>
-  //   </Layout>
-  // );
-  return <Redirect to="/docs/intro" />;
+  const {siteConfig} = useDocusaurusContext();
+  return (
+    <Layout
+      title={``}
+      description="Description will go into a meta tag in <head />">
+      <HomepageHeader />
+      <main>
+        <HomepageFeatures />
+      </main>
+    </Layout>
+  );
+  // return <Redirect to="/docs/intro" />;
 }
