@@ -4,7 +4,7 @@
 /static/google8afd856fefa80ada.html
 # Production
 /build
-
+all.txt
 # Generated files
 .docusaurus
 .cache-loader
