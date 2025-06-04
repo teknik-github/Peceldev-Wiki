@@ -14,7 +14,7 @@ PecelDev Wiki adalah repositori dokumentasi pribadi milik **Raffi** yang berisi 
   - **DevOps Engineering**  
   - **System Administration**  
 - 💼 Pengalaman Praktik:  
-  [Lihat Pengalaman Selengkapnya](https://contoh-link-pengalaman.com)
+  [Lihat Pengalaman Selengkapnya](www.linkedin.com/in/moch-raffi)
 
 ## Apa yang Tersedia di PecelDev Wiki?
 
