@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wiki-gitaction
+spec:
+  selector:
+    matchLabels:
+      app: wiki-gitaction
+  template:
+    metadata:
+      labels:
+        app: wiki-gitaction
+    spec:
+      containers:
+      - name: wiki-gitaction
+        image: bitnami/node
+        command: ["/bin/sh", "-c", "npm run serve"]
+        # args: ["index.js"]
+        resources:
+          limits:
+            memory: "1024Mi"
+        ports:
+        - containerPort: 3000
+        volumeMounts:
+          - name:  wiki-volume
+            mountPath: /app
+      volumes:
+        - name:  wiki-volume
+          hostPath:
+            path: /home/ubuntu/kubernetes/wiki-gitaction/wiki
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: wiki-service
+spec:
+  selector:
+    app: wiki-gitaction
+  ports:
+  - port: 8081
+    targetPort: 3000
+  externalIPs:
+  - 192.168.20.25
+
