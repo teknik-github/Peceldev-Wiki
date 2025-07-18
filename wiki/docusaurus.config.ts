@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
@@ -33,6 +33,10 @@ const config: Config = {
     locales: ['en'],
   },
 
+  stylesheets: [
+    'https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap',
+  ],
+
   presets: [
     [
       'classic',
@@ -46,7 +50,7 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/teknik-github/Peceldev-Wiki/tree/main/wiki',
-          },
+        },
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -65,11 +69,16 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+    },
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
@@ -85,7 +94,7 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://saweria.co/PecelDev',
           label: 'Saweria',

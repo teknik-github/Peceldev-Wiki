@@ -23,4 +23,4 @@ URL=https://www.aapanel.com/script/install_7.0_en.sh && if [ -f /usr/bin/curl ];
 
 atau kalian bisa menggunjungi web [aapanel](https://www.aapanel.com/new/download.html) nya secara langsung jika inggin lebih lengkap
 
-Nah itulah aapanel, bagaimana sudah tahu kan? sangat mudah untuk instalasi nya :star2:
+itulah aapanel, bagaimana sudah tahu kan? sangat mudah untuk instalasi nya :star2:

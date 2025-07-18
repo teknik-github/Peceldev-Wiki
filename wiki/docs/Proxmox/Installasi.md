@@ -1,5 +1,7 @@
 # Install Proxmox di debian 12
 
+Nah pastinya kalian bertanya tanya bisa gak sih proxmox di install tanpa mengunakan file ISO nya langsung?. di pembahasan ini adalah bagaimana caranya install proxmox menggunakan debian 12
+
 ## Installasi
 
 1. gunakan su – untuk masuk ke root debian 12 dan jika sudah jalankan semua code yang ada di bawah
@@ -44,5 +46,7 @@ update-grub
 ```bash
 apt remove os-prober
 ```
+
+Untuk melakukan access ke dalam proxmox depat menggunakan port 8006 "https://ip-or-Domain:8006"
 
 Proxmox VE kini sudah terinstal dan siap digunakan. Anda dapat mulai membuat VM, mengatur container, atau bahkan mengelola cluster Proxmox jika memiliki lebih dari satu server.

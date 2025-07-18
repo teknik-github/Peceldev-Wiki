@@ -1,6 +1,6 @@
 # NVM
 
-Nvm adalah sebuah aplikasi yang di gunakan untuk mengginstall node.js dengan berbagai versi dan nvm dapat dengan budah untuk mengganti 
+Nvm adalah sebuah aplikasi yang di gunakan untuk mengginstall node.js dengan berbagai versi dan nvm dapat dengan budah untuk mengganti versi pada node tersebut
 
 ## Instalasi
 
