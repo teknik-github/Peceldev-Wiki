@@ -148,7 +148,8 @@ a {
   padding-bottom: 2px;
 }
 
-a::after {
+article a::after,
+.markdown a::after {
   content: '';
   position: absolute;
   left: 0;
@@ -161,9 +162,11 @@ a::after {
   transform-origin: left;
 }
 
-a:hover::after {
+article a:hover::after,
+.markdown a:hover::after {
   transform: scaleX(1);
 }
+
 
 /* === Footer === */
 .footer {
