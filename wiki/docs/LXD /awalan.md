@@ -1,4 +1,4 @@
-# LXD
+# LXD - Pengenalan dan Panduan Awal
 LXD (baca: lex-dee) adalah container manager untuk Linux, yang dikembangkan oleh Canonical (perusahaan di balik Ubuntu). LXD dibangun di atas teknologi LXC (Linux Containers), dan memberikan antarmuka yang lebih mudah digunakan untuk mengelola container seolah-olah mereka adalah virtual machines ringan.
 
 ## Fitur Utama LXD
