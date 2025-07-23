@@ -37,6 +37,21 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
+/* Perbaikan alignment caret (ikon ">") */
+.menu__link {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem; /* Beri jarak sedikit antara caret dan teks */
+}
+
+.menu__caret {
+  margin-right: 0.25rem; /* Tambahkan sedikit jarak dari teks */
+  align-self: center; /* Pastikan caret rata tengah */
+  display: flex;
+  align-items: center;
+}
+
+
 /* === HTML & Body Background === */
 html {
   background-color: #0f0f1b;
