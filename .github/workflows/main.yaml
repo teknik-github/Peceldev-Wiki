@@ -20,6 +20,7 @@ jobs:
         ssh -o StrictHostKeyChecking=no ${{ secrets.USERNAME }}@${{ secrets.PUBLIC }} -p ${{ secrets.PORT }} "
           cd /home/ubuntu/kubernetes/wiki-gitaction/wiki
           git pull
+          export PATH=\$HOME/.nvm/versions/node/v22.18.0/bin:\$PATH
           /home/ubuntu/.nvm/versions/node/v22.18.0/bin/npm -v
           /home/ubuntu/.nvm/versions/node/v22.18.0/bin/npm install
         "
