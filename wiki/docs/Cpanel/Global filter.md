@@ -69,4 +69,4 @@ Pada bagian Email, klik Global Email Filters (atau Email Filters Global jika men
 4. Simpan Filter
 Klik Create untuk menyimpan dan mengaktifkan filter.
 
-![Image](https://cdn.peceldev.my.id/images/1750250175638-lgo8j.webp)
+![Image](https://cdn.peceldev.my.id/images/1750250175638-lgo8j.webp)     
