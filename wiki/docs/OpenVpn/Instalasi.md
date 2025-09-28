@@ -44,4 +44,5 @@ jika instalasi sudah selesai akan terdapat file baru sesuai dengan name client  
 
 ![Image](https://cdn.peceldev.my.id/images/1750598241736-63h4ew.webp)
 
-File tersebut akan di gunakan untuk menhubunkan Client ke Server yang sudah terinstall vpn tadi
+File tersebut akan di gunakan untuk menghubungkan Client ke Server yang sudah terinstall vpn tadi
+
