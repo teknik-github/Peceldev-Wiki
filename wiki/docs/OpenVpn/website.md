@@ -1,4 +1,4 @@
-# Cara Menggamankan Website dengan OpenVPN di VPS Ubuntu 20.04
+# Cara Menggamankan Website dengan OpenVPN
 OpenVPN adalah solusi VPN open-source yang memungkinkan kamu membuat koneksi aman antara dua atau lebih perangkat melalui internet. Dengan OpenVPN, kamu bisa mengamankan lalu lintas data, melindungi privasi online, dan mengakses sumber daya jaringan secara aman.
 
 Dalam panduan ini, kita akan membahas cara menginstal dan mengonfigurasi OpenVPN di VPS Ubuntu 20.04 untuk mengamankan koneksi website kamu.
@@ -86,3 +86,16 @@ sudo netfilter-persistent save
 ```
 
 ## Langkah 3: Uji coba 
+Sekarang, kita akan menguji apakah website kamu dapat diakses melalui koneksi VPN.
+1. Hubungkan klien OpenVPN ke server VPN menggunakan file konfigurasi yang dihasilkan selama instalasi OpenVPN.
+2. Setelah terhubung, buka browser dan akses website kamu menggunakan alamat IP atau domain yang terhubung ke VPS.
+
+![Website Screenshot](https://cdn.peceldev.my.id/images/1759203928084-rg3pux.webp)
+
+3. Periksa apakah website dapat diakses dengan baik melalui koneksi VPN.   
+Jika website dapat diakses tanpa masalah, berarti kamu telah berhasil mengamankan website dengan OpenVPN!
+
+![](https://cdn.peceldev.my.id/images/1759204130349-43insu.webp)
+
+## Kesimpulan
+Dengan mengikuti panduan ini, kamu telah berhasil menginstal dan mengonfigurasi OpenVPN di VPS Ubuntu 20.04 untuk mengamankan koneksi website kamu. OpenVPN membantu melindungi data dan privasi online kamu, serta memungkinkan akses aman ke sumber daya jaringan. Jangan lupa untuk selalu memperbarui sistem dan perangkat lunak kamu untuk menjaga keamanan. Selamat mencoba!
