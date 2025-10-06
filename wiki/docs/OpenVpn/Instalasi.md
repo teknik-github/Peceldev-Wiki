@@ -46,3 +46,5 @@ jika instalasi sudah selesai akan terdapat file baru sesuai dengan name client  
 
 File tersebut akan di gunakan untuk menghubungkan Client ke Server yang sudah terinstall vpn tadi
 
+# Kesimpulan
+OpenVPN adalah solusi yang hebat untuk menghubungkan server di lokasi berbeda secara aman. Dengan mengikuti langkah-langkah di atas, kamu bisa dengan mudah mengatur jaringan privat antar server. Selamat mencoba!🚀
