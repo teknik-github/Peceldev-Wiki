@@ -1,10 +1,6 @@
 Cara Menginstal Pterodactyl dan Mengonfigurasi Minecraft
 ========================================================
 
-Written by Support Team | Last published at: September 17, 2025
-
-      
-
 **A. Pendahuluan**
 ==================
 
